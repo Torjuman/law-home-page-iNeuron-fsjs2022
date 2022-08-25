@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #261e19;
+}
+
+.container {
+    margin: 50px 10%;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+    width: 100%;
+    display: block;
+}
+
+.logo {
+    width: 110px;
+    cursor: pointer;
+}
+
+.list {
+    position: absolute;
+    right: 20%;
+    top: 55px;
+    color: #CAD5E2;
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.button-small {
+    position: absolute;
+    right: 10%;
+    top: 50px;
+    padding: 10px 20px;
+    background-color: #261e19;
+    color: #ffffff;
+    border: 1px solid #F4CE6A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-small:hover {
+    background-color: #F4CE6A;
+    color: #1f1f1f;
+    border: none;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+    margin-top: 5%;
+}
+
+.hero-contant {
+    width: 100%;
+    display: inline-block;
+}
+
+.hero-heading {
+    position: relative;
+    left: 0%;
+    width: 55%;
+    text-align: left;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.hero-description {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 30%;
+    color: #758283;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.hero-img {
+    margin-top: 5%;
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
